@@ -36,7 +36,9 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          <a href="https://github.com/vssn">Contribute on Github</a>
+          <a href="https://github.com/vssn/gatsby-biohacks/tree/master/">
+            Contribute on Github
+          </a>
         </footer>
       </div>
     </>

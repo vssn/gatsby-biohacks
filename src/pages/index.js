@@ -24,7 +24,6 @@ const IndexPage = () => (
         gain="4"
       />
     </div>
-    <Link to="/page-2/">Nothing here</Link>
   </Layout>
 )
 
