@@ -27,6 +27,13 @@
       "short": "Timer am Armband auf 5 Minuten, bequem hinsetzen, Augen zu und auf den Körper fokussieren. (siehe Headspace).",
       "effort": "1",
       "gain": "3"
+    },
+    {
+      "category": "Pendeln",
+      "title": "Lass das Auto stehen",
+      "short": "Freude am Fahren, aber nicht im Berufsverkehr. Jedes. Mal. Wieder. Selbst 10 Minuten am Bahnhof warten sind besser als 10 Minuten Parkplatzsuche.",
+      "effort": "3",
+      "gain": "2"
     }
   ]
 }
