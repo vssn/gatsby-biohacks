@@ -1,0 +1,32 @@
+{
+  "cards": [
+    {
+      "category": "Pendeln",
+      "title": "Eine Podcast Folge Deutschlandfunk",
+      "short": "Eine Folge Deutschlandfunk 'Der Hintergrund' hat ca. 20 Minuten Laufzeit. Perfekt für den Weg zur Arbeit.",
+      "effort": "1",
+      "gain": "2"
+    },
+    {
+      "category": "Pendeln",
+      "title": "Sprache lernen mit Memrise",
+      "short": "Mit den Öffis auf dem Weg zur Arbeit oder nach Hause? Dann hängst du wohl eh am Smartphone. Nutze die Zeit um die Sprachkenntnisse zu erweitern.",
+      "effort": "2",
+      "gain": "4"
+    },
+    {
+      "category": "Essen & Trinken",
+      "title": "Kaffee + Wasser",
+      "short": "Hole dir mit jedem Kaffee oder Espresso die gleiche Menge an Wasser. In vielen Cafès gibts das Tafelwasser auf Anfrage gratis.",
+      "effort": "1",
+      "gain": "2"
+    },
+    {
+      "category": "Fitness",
+      "title": "Schnelle Meditation",
+      "short": "Timer am Armband auf 5 Minuten, bequem hinsetzen, Augen zu und auf den Körper fokussieren. (siehe Headspace).",
+      "effort": "1",
+      "gain": "3"
+    }
+  ]
+}
