@@ -34,6 +34,20 @@
       "short": "Freude am Fahren, aber nicht im Berufsverkehr. Jedes. Mal. Wieder. Selbst 10 Minuten am Bahnhof warten sind besser als 10 Minuten Parkplatzsuche.",
       "effort": "3",
       "gain": "2"
+    },
+    {
+      "category": "Zeitmanagement",
+      "title": "Mehr subjektive Zeit",
+      "short": "Viel Freizeit oder langer Sonntag und am Ende die Frage wo die ganze Zeit hin ist? Hacke die subjektive Wahrnehmung mit Unterbrechungen, Abwechslung, Laufen, Spazieren u.v.m.",
+      "effort": "4",
+      "gain": "3"
+    },
+    {
+      "category": "Zeitmanagement",
+      "title": "Zeit totschlagen",
+      "short": "Du sitzt im Wartezimmer oder in der Flughafenlounge? Befasse dich intensiv mit einer Tätigkeit: Hörbuch, Programmieren, Schreiben. So füllst du scheinbar sinnlose Zeit mit Sinn.",
+      "effort": "4",
+      "gain": "2"
     }
   ]
 }
