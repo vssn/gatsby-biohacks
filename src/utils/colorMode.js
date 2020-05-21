@@ -1,8 +1,11 @@
 const IS_DARK = isDark()
 
 function isDark() {
+  if (typeof window === 'undefined') {
+    global.window = {}
+  }
+  
   return (
-    window &&
     window.matchMedia &&
     window.matchMedia("(prefers-color-scheme: dark)").matches
   )
