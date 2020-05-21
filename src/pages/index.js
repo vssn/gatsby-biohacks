@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { cards } from "./../../content"
 
 import Layout from "../components/layout"

@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import { mode } from "../utils/colorMode"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -36,7 +37,9 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          <a href="https://github.com/vssn/gatsby-biohacks/tree/master/">
+          <a style={{
+            color: mode('black', 'white')
+          }} href="https://github.com/vssn/gatsby-biohacks/tree/master/">
             Contribute on Github
           </a>
         </footer>

@@ -1,11 +1,12 @@
 import React from "react"
+import { mode } from "../utils/colorMode"
 
 function calculateEffort(effort = 1) {
   return <>{"😅".repeat(effort)}</>
 }
 
 function calculateGain(gain = 1) {
-  return <>{"🏆".repeat(gain)}</>
+  return <>{"💪".repeat(gain)}</>
 }
 
 const label = {
@@ -24,7 +25,7 @@ const Card = props => {
   return (
     <div
       style={{
-        boxShadow: "0px 3px 10px #ddd",
+        boxShadow: `0px 3px 10px ${mode("#ddd", "#222")}`,
         padding: "10px",
         marginBottom: "50px",
       }}
