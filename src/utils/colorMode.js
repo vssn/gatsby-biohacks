@@ -1,10 +1,14 @@
+import React from "react"
+
 const IS_DARK = isDark()
 
-function isDark() {
-  return (
-    window.matchMedia &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches
-  )
+async function isDark() {
+  return await React.lazy(() => {
+    return (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    )
+  })
 }
 
 function mode(light, dark, cache = true) {

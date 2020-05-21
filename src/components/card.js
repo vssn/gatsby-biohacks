@@ -20,7 +20,6 @@ const label = {
 
 const Card = props => {
   const { category, title, short, effort, gain } = props
-  console.log(props)
 
   return (
     <div

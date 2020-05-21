@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="Bunch of Biohacks" />
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       {cards.map(card => (
-        <Card {...card} />
+        <Card key={Math.random()} {...card} />
       ))}
     </div>
   </Layout>
